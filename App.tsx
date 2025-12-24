@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { IntroSection } from './components/IntroSection';
 import { StorySection } from './components/StorySection';
 import { GameHub } from './components/GameHub';
-import { MusicPlayer } from './components/MusicPlayer';
 import { Heart } from 'lucide-react';
 
 export default function App() {
@@ -34,8 +33,6 @@ export default function App() {
           <p className="text-sm mt-2 opacity-70">Para nós. ❤️</p>
         </footer>
       </div>
-
-      <MusicPlayer />
     </div>
   );
 }
